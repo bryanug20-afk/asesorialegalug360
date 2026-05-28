@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asesoría Legal UG 360 | Estrategia Legal que Protege y Proyecta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="gold-text">UG</span> 360<span class="orange-text">.</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Áreas de Práctica</a></li>
+                    <li><a href="#consultoria">Consultoría Online</a></li>
+                    <li><a href="#portal" class="btn-portal" id="nav-portal-btn"><i class="fa-solid fa-lock"></i> Portal Privado</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h1>Estrategia legal que protege y proyecta</h1>
+            <p class="tagline">Asesoría Legal vs. Estructura Empresarial | Gestión de Bienes Inmuebles, Contratos, Litigio y Cumplimiento Normativo.</p>
+            <p class="description">Solidez jurídica y precisión notarial integral para personas y empresas bajo los más estrictos estándares de la legislación de Costa Rica.</p>
+            <div class="hero-buttons">
+                <a href="#consultoria" class="btn-primary">Iniciar Consulta Legal</a>
+                <a href="#servicios" class="btn-secondary">Ver Áreas de Práctica</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-firma">
+        <div class="container">
+            <div class="section-title">
+                <h2>¿Qué es Asesoría Legal UG 360?</h2>
+                <div class="line"></div>
+            </div>
+            <p class="firma-text">
+                Somos una firma legal y notarial diseñada bajo principios de estricta precisión, objetividad y excelencia técnica. <strong>Asesoría Legal UG 360</strong> fusiona el rigor del derecho tradicional con la dinámica del entorno corporativo y tecnológico moderno. Nos enfocamos en mitigar riesgos y estructurar soluciones jurídicas sólidas, directas y orientadas a resultados concretos, garantizando la seguridad jurídica de su patrimonio y sus transacciones.
+            </p>
+        </div>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <div class="section-title">
+                <h2>Áreas de Práctica Integral</h2>
+                <p>Soluciones corporativas, notariales y litigio de alta complejidad.</p>
+                <div class="line"></div>
+            </div>
+            <div class="grid-servicios">
+                <div class="card-servicio">
+                    <i class="fa-solid fa-briefcase icon-service"></i>
+                    <h3>Derecho Corporativo</h3>
+                    <p>Estructuración de sociedades, fusiones, adquisiciones, gobierno corporativo, auditorías legales y diseño de blindaje patrimonial empresarial.</p>
+                </div>
+                <div class="card-servicio">
+                    <i class="fa-solid fa-user-gear icon-service"></i>
+                    <h3>Derecho Laboral</h3>
+                    <p>Gestión preventiva de riesgos laborales, redacción de contratos ejecutivos, reglamentos internos de trabajo, políticas disciplinarias y defensa en litigios.</p>
+                </div>
+                <div class="card-servicio">
+                    <i class="fa-solid fa-gavel icon-service"></i>
+                    <h3>Derecho Penal</h3>
+                    <p>Asesoría y representación técnica en procesos penales corporativos, estafas, delitos financieros, cumplimiento penal y litigio estratégico de alta complejidad.</p>
+                </div>
+                <div class="card-servicio">
+                    <i class="fa-solid fa-scale-balanced icon-service"></i>
+                    <h3>Derecho Civil & Mercantil</h3>
+                    <p>Redacción, análisis y ejecución de contratos comerciales, cobro judicial, procesos sucesorios, responsabilidad civil y disputas contractuales.</p>
+                </div>
+                <div class="card-servicio">
+                    <i class="fa-solid fa-building-shield icon-service"></i>
+                    <h3>Derecho Inmobiliario</h3>
+                    <p>Debida diligencia en propiedades, transacciones de bienes raíces, fideicomisos, estructuración de condominios y desarrollo inmobiliario seguro.</p>
+                </div>
+                <div class="card-servicio">
+                    <i class="fa-solid fa-file-signature icon-service"></i>
+                    <h3>Notaría Pública</h3>
+                    <p>Formalización de escrituras públicas, fe de hechos, autenticación de firmas, traspasos de bienes muebles e inmuebles con rigurosa exactitud registral.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consultoria" class="consultoria">
+        <div class="container">
+            <div class="section-title">
+                <h2>Consultoría Legal Online</h2>
+                <p>Complete el registro formal para abrir su expediente jurídico confidencial.</p>
+                <div class="line"></div>
+            </div>
+
+            <form id="form-registro" class="form-legal">
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="tipo_identificacion">Tipo de Identificación *</label>
+                        <select id="tipo_identificacion" required>
+                            <option value="">Seleccione una opción</option>
+                            <option value="fisica">Cédula Física (Nacional)</option>
+                            <option value="juridica">Cédula Jurídica</option>
+                            <option value="extranjera">Identificación Extranjera / Pasaporte / DIMEX</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="num_cedula">Número de Identificación *</label>
+                        <input type="text" id="num_cedula" placeholder="Ej: 1-1234-1234" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo / Razón Social *</label>
+                        <input type="text" id="nombre" placeholder="Nombres y Apellidos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edad">Edad / Año de Constitución *</label>
+                        <input type="number" id="edad" min="1" placeholder="Ej: 35" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nacionalidad">Nacionalidad *</label>
+                        <input type="text" id="nacionalidad" placeholder="Ej: Costarricense" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pais">País de Residencia / Operación *</label>
+                        <input type="text" id="pais" placeholder="Ej: Costa Rica" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono (con Código de Área) *</label>
+                        <input type="tel" id="telefono" placeholder="Ej: +506 6189-4890" required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="descripcion_caso">Hechos y Requerimiento Legal *</label>
+                        <textarea id="descripcion_caso" rows="6" placeholder="Describa de manera clara y objetiva su caso..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="documento_frontal"><i class="fa-solid fa-camera"></i> Adjuntar Cédula (Lado Frontal) *</label>
+                        <input type="file" id="documento_frontal" accept="image/*,.pdf" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="documento_trasero"><i class="fa-solid fa-camera"></i> Adjuntar Cédula (Lado Trasero) *</label>
+                        <input type="file" id="documento_trasero" accept="image/*,.pdf" required>
+                    </div>
+
+                    <div class="form-group full-width strict-box">
+                        <label for="firma_aceptacion" class="checkbox-container">
+                            <input type="checkbox" id="firma_aceptacion" required>
+                            Declaración Jurada: Manifiesto bajo fe de juramento que los datos suministrados son verdaderos, exactos y verificables. Autorizo a Asesoría Legal UG 360 al tratamiento confidencial de mi información.
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Registro y Documentación</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="portal" class="portal-privado hidden">
+        <div class="container">
+            <div class="portal-box">
+                <div class="portal-header">
+                    <h2><i class="fa-solid fa-folder-open"></i> Expediente Digital & Notarial</h2>
+                    <p>Visualización y revisión de minutas, contratos y machotes legales en proceso.</p>
+                </div>
+                <div class="portal-body">
+                    <p class="welcome-user">Bienvenido/a al entorno confidencial de <strong>Asesoría Legal UG 360</strong>.</p>
+                    
+                    <div class="alert-box">
+                        <i class="fa-solid fa-circle-info"></i> Aquí se cargarán los borradores de sus escrituras o contratos para su respectiva revisión y validación técnica antes de su firma formal.
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="document-table">
+                            <thead>
+                                <tr>
+                                    <th>Código Acto</th>
+                                    <th>Tipo de Documento</th>
+                                    <th>Estado</th>
+                                    <th>Última Actualización</th>
+                                    <th>Acción</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#UG-2026-001</td>
+                                    <td>Minuta de Contrato Comercial / Estructura Corporativa</td>
+                                    <td><span class="badge badge-revision">En Revisión</span></td>
+                                    <td>28/05/2026</td>
+                                    <td><button class="btn-action"><i class="fa-solid fa-eye"></i> Revisar</button></td>
+                                </tr>
+                                <tr>
+                                    <td>#UG-2026-002</td>
+                                    <td>Machote Preliminar de Escritura Pública - Traspaso Inmueble</td>
+                                    <td><span class="badge badge-pendiente">Pendiente Corrección</span></td>
+                                    <td>27/05/2026</td>
+                                    <td><button class="btn-action"><i class="fa-solid fa-eye"></i> Revisar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <button id="btn-cerrar-portal" class="btn-secondary">Cerrar Sesión Segura</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h3>Asesoría Legal UG 360</h3>
+                <p>Solidez jurídica, orden institucional y disciplina técnica en el ámbito legal y notarial en Costa Rica.</p>
+                <p class="eslogan-footer">"Estrategia legal que protege y proyecta."</p>
+            </div>
+            <div class="footer-contacto">
+                <h4>Canales Oficiales</h4>
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:asesorialegalug360@gmail.com">asesorialegalug360@gmail.com</a></li>
+                    <li><i class="fa-solid fa-phone"></i> +506 6189-4890</li>
+                    <li><i class="fa-solid fa-phone"></i> +506 6336-1245</li>
+                    <li><i class="fa-solid fa-location-dot"></i> San José, Costa Rica</li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Áreas Jurídicas</a></li>
+                    <li><a href="#consultoria">Registro de Casos</a></li>
+                    <li><a href="#" id="footer-portal-link">Acceso Clientes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Asesoría Legal UG 360. Todos los derechos reservados. Conforme a las directrices del Colegio de Abogados y la Dirección Nacional de Notariado de Costa Rica.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
